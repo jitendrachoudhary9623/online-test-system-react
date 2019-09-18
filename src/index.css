@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f5eded
+}
+
+.questionBody{
+  margin-left:20vw;
+  margin-right:20vw;
+  margin-top:1%;
+  margin-bottom: 1%;
+  padding:2%;
+}
+nav {
+  background-color:#2979ff  ;
+}
+
+.pad-2{
+  padding:2%;
+}
+
+.sticky{
+  position: fixed;
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "basic-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chai": "^4.2.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jquery": "^3.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "0.9.5",
+    "react-test-renderer": "^16.9.0"
+  },
+  "devDependencies": {
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.10.0",
+    "sinon": "^7.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "setupFiles": [
+    "<rootDir>/config/polyfills.js",
+    "<rootDir>/src/setupTests.js"
+  ]
+}
