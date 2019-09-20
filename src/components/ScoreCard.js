@@ -9,17 +9,9 @@ export default class ScoreCard extends Component {
 
     render() {
         return (
-            <div>
-                <div className="row">
-                    <div className="col s12">
-                        <div className="card">
-                            <div className="card-content center-align">
-                                <span className="card-title">Your Score for this test is</span>
-                                <h3>{this.props.score}</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="row col s12 card card-content center-align">
+                <span className="card-title">Your Score for this test is</span>
+                <h3>{this.props.score}</h3>
             </div>
         );
     }

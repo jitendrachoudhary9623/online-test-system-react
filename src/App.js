@@ -60,7 +60,7 @@ class App extends Component {
       return (
         <div>
           <NavBar title="CDK Test" />
-          <ScoreCard score={this.state.score}/>
+          <ScoreCard score={this.state.score} style={{margin:3}}/>
         </div>
       );
     }
