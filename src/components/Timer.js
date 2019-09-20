@@ -68,10 +68,14 @@ class Timer extends Component {
     }
     render() {
         return (
-            <div>
-            <a className="navbar-fixed waves-effect waves-light btn grey darken-5">{this.state.time.m} : {this.state.time.s}
-            </a>
-           </div>
+                 <div className="fixed-action-btn horizontal" style={{
+                    bottom: 45, right: 24,padding:30
+                }}>
+    <a className="btn-floating btn-large red">
+    {this.state.time.m} : {this.state.time.s}
+    </a>
+    </div>
+          
         )
     }
 

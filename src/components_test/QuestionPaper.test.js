@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import QuestionPaper from "../components/QuestionPaper"
 import { shallow } from 'enzyme'
 
-
 describe('UI Test for Question Paper Button', () => {
     let questions = {
         "data": [
@@ -46,7 +45,6 @@ describe('UI Test for Question Paper Button', () => {
     });
 
     it('Question Paper  should render correctly', () => {
-
         const snapshot = shallow(
           <QuestionPaper questions={questions} seconds={5}/>
         );

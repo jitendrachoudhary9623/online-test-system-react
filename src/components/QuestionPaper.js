@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Timer from "./Timer"
-
+import SubmitButton from "./SubmitButton";
 class QuestionPaper extends Component {
     constructor(props){
         super(props);
@@ -17,7 +17,10 @@ class QuestionPaper extends Component {
             }
         });
         this.score=score;
-        alert("Score is "+this.score)
+        //alert("Your Score is "+this.score)
+        this.setState({"data":[]});
+
+        this.props.completeTestHandler(score);
         //this.props.completeTestHandler();
     }
 
@@ -62,6 +65,8 @@ class QuestionPaper extends Component {
                  </ul>        
                ))}
             </ul>
+            <SubmitButton  />
+
         </div>);
     }
 

@@ -358,6 +358,7 @@ ShallowWrapper {
                     </li>
           </ul>
 </ul>,
+        <SubmitButton />,
       ],
     },
     "ref": null,
@@ -2060,6 +2061,15 @@ ShallowWrapper {
         ],
         "type": "ul",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -2304,6 +2314,7 @@ ShallowWrapper {
                         </li>
             </ul>
 </ul>,
+          <SubmitButton />,
         ],
       },
       "ref": null,
@@ -4005,6 +4016,15 @@ ShallowWrapper {
             },
           ],
           "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",

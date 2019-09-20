@@ -18,11 +18,17 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <a
-        className="navbar-fixed waves-effect waves-light btn grey darken-5">
+        className="btn-floating btn-large red">
         01
          : 
         00
 </a>,
+      "className": "fixed-action-btn horizontal",
+      "style": Object {
+        "bottom": 45,
+        "padding": 30,
+        "right": 24,
+      },
     },
     "ref": null,
     "rendered": Object {
@@ -35,7 +41,7 @@ ShallowWrapper {
           " : ",
           "00",
         ],
-        "className": "navbar-fixed waves-effect waves-light btn grey darken-5",
+        "className": "btn-floating btn-large red",
       },
       "ref": null,
       "rendered": Array [
@@ -54,11 +60,17 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <a
-          className="navbar-fixed waves-effect waves-light btn grey darken-5">
+          className="btn-floating btn-large red">
           01
            : 
           00
 </a>,
+        "className": "fixed-action-btn horizontal",
+        "style": Object {
+          "bottom": 45,
+          "padding": 30,
+          "right": 24,
+        },
       },
       "ref": null,
       "rendered": Object {
@@ -71,7 +83,7 @@ ShallowWrapper {
             " : ",
             "00",
           ],
-          "className": "navbar-fixed waves-effect waves-light btn grey darken-5",
+          "className": "btn-floating btn-large red",
         },
         "ref": null,
         "rendered": Array [
