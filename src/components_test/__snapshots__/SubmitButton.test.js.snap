@@ -17,10 +17,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <button
-        className="col s12 m-2 center-align btn waves-effect waves-light blue darken-1"
+        className="col s12 m-2 center-align btn waves-effect waves-light blue darken-1 buttonStyle"
         name="action"
+        onClick={undefined}
         type="submit">
-        Submit
+        Submit Test
         <i
                 className="material-icons right" />
 </button>,
@@ -33,17 +34,18 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "Submit",
+          "Submit Test",
           <i
             className="material-icons right" />,
         ],
-        "className": "col s12 m-2 center-align btn waves-effect waves-light blue darken-1",
+        "className": "col s12 m-2 center-align btn waves-effect waves-light blue darken-1 buttonStyle",
         "name": "action",
+        "onClick": undefined,
         "type": "submit",
       },
       "ref": null,
       "rendered": Array [
-        "Submit",
+        "Submit Test",
         Object {
           "instance": null,
           "key": undefined,
@@ -67,10 +69,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <button
-          className="col s12 m-2 center-align btn waves-effect waves-light blue darken-1"
+          className="col s12 m-2 center-align btn waves-effect waves-light blue darken-1 buttonStyle"
           name="action"
+          onClick={undefined}
           type="submit">
-          Submit
+          Submit Test
           <i
                     className="material-icons right" />
 </button>,
@@ -83,17 +86,18 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Submit",
+            "Submit Test",
             <i
               className="material-icons right" />,
           ],
-          "className": "col s12 m-2 center-align btn waves-effect waves-light blue darken-1",
+          "className": "col s12 m-2 center-align btn waves-effect waves-light blue darken-1 buttonStyle",
           "name": "action",
+          "onClick": undefined,
           "type": "submit",
         },
         "ref": null,
         "rendered": Array [
-          "Submit",
+          "Submit Test",
           Object {
             "instance": null,
             "key": undefined,

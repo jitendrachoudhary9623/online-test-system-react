@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import QuestionPaper from './components/QuestionPaper'
-import NavBar from './NavBar'
+import NavBar from './components/NavBar'
 import ScoreCard from './components/ScoreCard'
 
 class App extends Component {
@@ -53,7 +53,7 @@ class App extends Component {
       return (
         <div>
           <NavBar title="CDK Test" />
-          <QuestionPaper questions={this.state} seconds={5} completeTestHandler={this.completeTestHandler} />
+          <QuestionPaper questions={this.state} seconds={90} completeTestHandler={this.completeTestHandler} />
         </div>
       );
     } else {

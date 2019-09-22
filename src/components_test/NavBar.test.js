@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from "../NavBar"
+import NavBar from "../components/NavBar"
 import { shallow } from 'enzyme'
 
 describe('UI Test for Nav Bar', () => {

@@ -68,10 +68,8 @@ class Timer extends Component {
     }
     render() {
         return (
-                 <div className="fixed-action-btn horizontal" style={{
-                    bottom: 45, right: 24,padding:30
-                }}>
-    <a className="btn-floating btn-large red">
+                 <div className="row card ">
+    <a className="col s12 card-content horizontal center-align" style={{padding:5,fontSize:25}}>
     {this.state.time.m} : {this.state.time.s}
     </a>
     </div>

@@ -18,17 +18,18 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <a
-        className="btn-floating btn-large red">
+        className="col s12 card-content horizontal center-align"
+        style={
+                Object {
+                        "fontSize": 25,
+                        "padding": 5,
+                      }
+        }>
         01
          : 
         00
 </a>,
-      "className": "fixed-action-btn horizontal",
-      "style": Object {
-        "bottom": 45,
-        "padding": 30,
-        "right": 24,
-      },
+      "className": "row card ",
     },
     "ref": null,
     "rendered": Object {
@@ -41,7 +42,11 @@ ShallowWrapper {
           " : ",
           "00",
         ],
-        "className": "btn-floating btn-large red",
+        "className": "col s12 card-content horizontal center-align",
+        "style": Object {
+          "fontSize": 25,
+          "padding": 5,
+        },
       },
       "ref": null,
       "rendered": Array [
@@ -60,17 +65,18 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <a
-          className="btn-floating btn-large red">
+          className="col s12 card-content horizontal center-align"
+          style={
+                    Object {
+                              "fontSize": 25,
+                              "padding": 5,
+                            }
+          }>
           01
            : 
           00
 </a>,
-        "className": "fixed-action-btn horizontal",
-        "style": Object {
-          "bottom": 45,
-          "padding": 30,
-          "right": 24,
-        },
+        "className": "row card ",
       },
       "ref": null,
       "rendered": Object {
@@ -83,7 +89,11 @@ ShallowWrapper {
             " : ",
             "00",
           ],
-          "className": "btn-floating btn-large red",
+          "className": "col s12 card-content horizontal center-align",
+          "style": Object {
+            "fontSize": 25,
+            "padding": 5,
+          },
         },
         "ref": null,
         "rendered": Array [

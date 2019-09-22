@@ -21,14 +21,19 @@ ShallowWrapper {
         <div
                 className="nav-wrapper">
                 <span
-                        className="brand-logo pad-2 left">
+                        className="brand-logo pad-2 left blue-text text-darken-2"
+                        style={
+                                Object {
+                                        "marginLeft": 30,
+                                      }
+                        }>
                         CDK Test
                 </span>
                 <ul
                         className="right" />
         </div>
 </nav>,
-      "className": "grey darken-1 navbar-fixed ",
+      "className": "grey navbar-fixed ",
     },
     "ref": null,
     "rendered": Object {
@@ -39,7 +44,12 @@ ShallowWrapper {
         "children": <div
           className="nav-wrapper">
           <span
-                    className="brand-logo pad-2 left">
+                    className="brand-logo pad-2 left blue-text text-darken-2"
+                    style={
+                              Object {
+                                        "marginLeft": 30,
+                                      }
+                    }>
                     CDK Test
           </span>
           <ul
@@ -54,7 +64,12 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="brand-logo pad-2 left">
+              className="brand-logo pad-2 left blue-text text-darken-2"
+              style={
+                            Object {
+                                          "marginLeft": 30,
+                                        }
+              }>
               CDK Test
 </span>,
             <ul
@@ -70,7 +85,10 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "CDK Test",
-              "className": "brand-logo pad-2 left",
+              "className": "brand-logo pad-2 left blue-text text-darken-2",
+              "style": Object {
+                "marginLeft": 30,
+              },
             },
             "ref": null,
             "rendered": "CDK Test",
@@ -104,14 +122,19 @@ ShallowWrapper {
           <div
                     className="nav-wrapper">
                     <span
-                              className="brand-logo pad-2 left">
+                              className="brand-logo pad-2 left blue-text text-darken-2"
+                              style={
+                                        Object {
+                                                  "marginLeft": 30,
+                                                }
+                              }>
                               CDK Test
                     </span>
                     <ul
                               className="right" />
           </div>
 </nav>,
-        "className": "grey darken-1 navbar-fixed ",
+        "className": "grey navbar-fixed ",
       },
       "ref": null,
       "rendered": Object {
@@ -122,7 +145,12 @@ ShallowWrapper {
           "children": <div
             className="nav-wrapper">
             <span
-                        className="brand-logo pad-2 left">
+                        className="brand-logo pad-2 left blue-text text-darken-2"
+                        style={
+                                    Object {
+                                                "marginLeft": 30,
+                                              }
+                        }>
                         CDK Test
             </span>
             <ul
@@ -137,7 +165,12 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <span
-                className="brand-logo pad-2 left">
+                className="brand-logo pad-2 left blue-text text-darken-2"
+                style={
+                                Object {
+                                                "marginLeft": 30,
+                                              }
+                }>
                 CDK Test
 </span>,
               <ul
@@ -153,7 +186,10 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "CDK Test",
-                "className": "brand-logo pad-2 left",
+                "className": "brand-logo pad-2 left blue-text text-darken-2",
+                "style": Object {
+                  "marginLeft": 30,
+                },
               },
               "ref": null,
               "rendered": "CDK Test",

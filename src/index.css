@@ -1,19 +1,36 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: #f5eded
+  font-family: 'Mukta', sans-serif;
+  background: #eeeeee;
+  font-weight: 500;
 }
-
+.buttonStyle{
+  font-family: 'Mukta', sans-serif;
+ 
+}
+.buttonStyle:hover{
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
 .questionBody{
-  margin-left:20vw;
-  margin-right:20vw;
+  margin-left:5vw;
+  margin-right:5vw;
   margin-top:1%;
   margin-bottom: 1%;
   padding:2%;
 }
+
+.navigationStyle{
+  margin-top:2%;
+  margin-bottom: 1%;
+}
 nav {
-  background-color:#2979ff  ;
+  background-color:white  ;
+  color: #000;
+}
+nav > *{
+  color:black;
 }
 
 .pad-2{

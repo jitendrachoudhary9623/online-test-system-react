@@ -7,10 +7,10 @@ class NavBar extends Component{
 
     
     render(){
-        return (<div className="grey darken-1 navbar-fixed ">
+        return (<div className="grey navbar-fixed ">
         <nav>
           <div className="nav-wrapper">
-            <span className="brand-logo pad-2 left">{this.props.title}</span>
+            <span className="brand-logo pad-2 left blue-text text-darken-2" style={{marginLeft:30}}>{this.props.title}</span>
             <ul className="right">
             </ul>
           </div>
