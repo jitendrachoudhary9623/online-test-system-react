@@ -4,7 +4,6 @@ export default class ScoreCard extends Component {
 
     constructor(props) {
         super(props);
-
     }
 
     render() {

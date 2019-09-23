@@ -10,6 +10,7 @@ class QuestionPaper extends Component {
         this.score = 0;
         this.currentQuestion=0;
     }
+   
     timerUpHandler() {
         let paper = this.state;
         let score = 0;

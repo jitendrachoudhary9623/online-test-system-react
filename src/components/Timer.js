@@ -2,18 +2,11 @@ import React, { Component } from 'react';
 class Timer extends Component {
     constructor(props) {
         super(props);
-        this.state = { time: {}, seconds: this.props.seconds,isOpen: false  };
-        
+        this.state = { time: {}, seconds: this.props.seconds, isOpen: false };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
         this.countDown = this.countDown.bind(this);
-
         this.startTimer();
-    }
-
-    componentDidMount() {
-        let timeLeftVar = this.secondsToTime(this.state.seconds);
-        this.setState({ time: timeLeftVar });
     }
 
     secondsToTime(secs) {
@@ -46,7 +39,6 @@ class Timer extends Component {
         this.setState({ time: timeLeftVar });
     }
 
-  
     startTimer() {
         if (this.timer === 0 && this.state.seconds > 0) {
             this.timer = setInterval(this.countDown, 1000);
@@ -55,32 +47,32 @@ class Timer extends Component {
 
     countDown() {
         let seconds = this.state.seconds - 1;
-        let tempState=this.state;
-        tempState.time=this.secondsToTime(seconds);
-        tempState.seconds=seconds;
+        let tempState = this.state;
+        tempState.time = this.secondsToTime(seconds);
+        tempState.seconds = seconds;
         this.setState({
             tempState
         });
         if (seconds === 0) {
             clearInterval(this.timer);
-           this.props.timerUpHandler();
+            this.props.timerUpHandler();
         }
     }
+    
     render() {
         return (
-                 <div className="row card ">
-    <a className="col s12 card-content horizontal center-align" style={{padding:5,fontSize:25}}>
-    {this.state.time.m} : {this.state.time.s}
-    </a>
-    </div>
-          
+            <div className="row card ">
+                <a className="col s12 card-content horizontal center-align" style={{ padding: 5, fontSize: 25 }}>
+                    {this.state.time.m} : {this.state.time.s}
+                </a>
+            </div>
         )
     }
 
 }
 
-Timer.defaultProps={
-  seconds:60  
+Timer.defaultProps = {
+    seconds: 60
 };
 
 export default Timer;

@@ -6,9 +6,6 @@ class Question extends Component{
         super(props);
         }
 
-    componentDidMount(){
-    }
-
     handleAnswerLayoutChange(answerNo){
         this.props.handleAnswerClick(this.props.item.id,answerNo);
     }
@@ -16,7 +13,7 @@ class Question extends Component{
         return(
             <ul key={this.props.id} className="card questionBody" >
             <li className="card-content">
-                {this.props.item.Question}
+            {this.props.item.id} . {this.props.item.Question}
             </li>
             <li>
                 {this.props.item.Answers.map((ans, i) => (

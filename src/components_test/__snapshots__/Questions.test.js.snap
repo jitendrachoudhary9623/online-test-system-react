@@ -48,6 +48,8 @@ ShallowWrapper {
       "children": Array [
         <li
           className="card-content">
+          1
+           . 
           A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?
 </li>,
         <li>
@@ -110,11 +112,19 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          "children": Array [
+            1,
+            " . ",
+            "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          ],
           "className": "card-content",
         },
         "ref": null,
-        "rendered": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+        "rendered": Array [
+          1,
+          " . ",
+          "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+        ],
         "type": "li",
       },
       Object {
@@ -410,6 +420,8 @@ ShallowWrapper {
         "children": Array [
           <li
             className="card-content">
+            1
+             . 
             A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?
 </li>,
           <li>
@@ -472,11 +484,19 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+            "children": Array [
+              1,
+              " . ",
+              "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+            ],
             "className": "card-content",
           },
           "ref": null,
-          "rendered": "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          "rendered": Array [
+            1,
+            " . ",
+            "A train 120 meters long is running with a speed of 60 km/hr. In what time will it pass a boy who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+          ],
           "type": "li",
         },
         Object {
