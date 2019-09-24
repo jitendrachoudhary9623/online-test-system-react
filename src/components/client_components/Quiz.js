@@ -40,7 +40,7 @@ componentWillUnmount(){
       return (
         <div>
           <NavBar title="CDK Test" />
-          <QuestionPaper questions={this.state} seconds={3} completeTestHandler={this.completeTestHandler} />
+          <QuestionPaper questions={this.state} seconds={300} completeTestHandler={this.completeTestHandler} />
         </div>
       );
     } else {
