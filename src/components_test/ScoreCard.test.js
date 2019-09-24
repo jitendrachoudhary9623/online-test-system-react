@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScoreCard from "../components/ScoreCard"
+import ScoreCard from "../components/client_components/ScoreCard"
 import { shallow } from 'enzyme'
 
 describe('UI Test for ScoreCard', () => {

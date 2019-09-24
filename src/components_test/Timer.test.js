@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import Timer from "../components/Timer"
+import Timer from "../components/client_components/Timer"
 import { shallow } from 'enzyme'
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SubmitButton from "../components/SubmitButton"
+import SubmitButton from "../components/client_components/SubmitButton"
 import { shallow } from 'enzyme'
 
 

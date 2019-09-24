@@ -5,6 +5,7 @@ import Question from './Question';
 class QuestionPaper extends Component {
     constructor(props) {
         super(props);
+        console.log('question',this.props.questions.data);
         this.state = {"questions":this.props.questions.data,"currentQuestion":0};
         this.timerUpHandler = this.timerUpHandler.bind(this);
         this.score = 0;

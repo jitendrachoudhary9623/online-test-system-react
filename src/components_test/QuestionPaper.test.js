@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import QuestionPaper from "../components/QuestionPaper"
+import QuestionPaper from "../components/client_components/QuestionPaper"
 import { shallow } from 'enzyme'
 
 describe('UI Test for Question Paper Button', () => {
