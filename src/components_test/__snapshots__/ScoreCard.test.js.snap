@@ -1,7 +1,8 @@
 exports[`UI Test for ScoreCard Score Card should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ScoreCard />,
+  Symbol(enzyme.__unrendered__): <ScoreCard
+    score="10" />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -21,7 +22,9 @@ ShallowWrapper {
           className="card-title">
           Your Score for this test is
 </span>,
-        <h3 />,
+        <h3>
+          10
+</h3>,
       ],
       "className": "row col s12 card card-content center-align",
     },
@@ -44,10 +47,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "10",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "10",
         "type": "h3",
       },
     ],
@@ -64,7 +67,9 @@ ShallowWrapper {
             className="card-title">
             Your Score for this test is
 </span>,
-          <h3 />,
+          <h3>
+            10
+</h3>,
         ],
         "className": "row col s12 card card-content center-align",
       },
@@ -87,10 +92,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "10",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "10",
           "type": "h3",
         },
       ],

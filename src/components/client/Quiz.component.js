@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import QuestionPaper from './QuestionPaper'
-import NavBar from '../NavBar'
-import ScoreCard from './ScoreCard'
+import QuestionPaper from './QuestionPaper.component'
+import NavBar from '../NavBar.component'
+import ScoreCard from './ScoreCard.component'
 import dataSource from '../../datasource/mockData'
 
 class Quiz extends Component {
@@ -40,7 +40,7 @@ componentWillUnmount(){
       return (
         <div>
           <NavBar title="CDK Test" />
-          <QuestionPaper questions={this.state} seconds={3} completeTestHandler={this.completeTestHandler} />
+          <QuestionPaper questions={this.state} seconds={90} completeTestHandler={this.completeTestHandler} />
         </div>
       );
     } else {

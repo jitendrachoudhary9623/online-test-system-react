@@ -1,30 +1,28 @@
 import React, { Component } from 'react';
-import Quiz from './components/client_components/Quiz'
-import NavBar from './components/NavBar'
-
+import Quiz from './components/client/Quiz.component'
+import AdminApp from './components/admin/AdminApp.component'
 class App extends Component {
   state = {
-    userType:"candidate"
+    userType: "admin"
   }
   constructor(props) {
     super(props);
   }
-  componentDidMount(){
-  
-}
-  
+  componentDidMount() {
+
+  }
+
   render() {
     if (this.state.userType === "candidate") {
       return (
         <div>
-<Quiz/>
+          <Quiz />
         </div>
       );
     } else {
       return (
         <div>
-          <NavBar title="CDK Test" />
-          Admin
+          <AdminApp />
         </div>
       );
     }
