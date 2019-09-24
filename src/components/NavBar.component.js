@@ -10,6 +10,7 @@ class NavBar extends Component{
           <div className="nav-wrapper">
             <span className="brand-logo pad-2 left blue-text text-darken-2" style={{marginLeft:30}}>{this.props.title}</span>
             <ul className="right">
+            <li><i class="material-icons prefix">account_circle</i> </li>
             </ul>
           </div>
         </nav>
@@ -19,6 +20,7 @@ class NavBar extends Component{
 }
 
 NavBar.defaultProps={
-  title:"CDK Test"
+  title:"CDK Test",
+  username:"user"
 }
 export default NavBar;

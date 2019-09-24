@@ -42,7 +42,7 @@ nav > *{
 
 }
 
-ul>li{
+.sidebar-item{
   padding:2%;
   background:rgb(219, 217, 217);
   margin:1%;
