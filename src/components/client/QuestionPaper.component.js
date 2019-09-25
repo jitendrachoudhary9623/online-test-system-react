@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Timer from "./Timer"
-import SubmitButton from "./SubmitButton";
-import Question from './Question';
+import Timer from "./Timer.component"
+import SubmitButton from "./SubmitButton.component";
+import Question from './Question.component';
 class QuestionPaper extends Component {
     constructor(props) {
         super(props);
-        console.log('question',this.props.questions.data);
         this.state = {"questions":this.props.questions.data,"currentQuestion":0};
         this.timerUpHandler = this.timerUpHandler.bind(this);
         this.score = 0;

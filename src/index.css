@@ -41,3 +41,11 @@ nav > *{
   position: fixed;
 
 }
+
+.sidebar-item{
+  padding:2%;
+  background:rgb(219, 217, 217);
+  margin:1%;
+  text-align: center;
+  font-size: 18px;
+}

@@ -1,30 +1,29 @@
 import React, { Component } from 'react';
-import Quiz from './components/client_components/Quiz'
-import NavBar from './components/NavBar'
-
+import Quiz from './components/client/Quiz.component'
+import AdminApp from './components/admin/AdminApp.component'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 class App extends Component {
   state = {
-    userType:"candidate"
+    userType: "candidate"
   }
   constructor(props) {
     super(props);
   }
-  componentDidMount(){
-  
-}
-  
+  componentDidMount() {
+
+  }
+
   render() {
     if (this.state.userType === "candidate") {
       return (
         <div>
-<Quiz/>
+          <Quiz />
         </div>
       );
     } else {
       return (
         <div>
-          <NavBar title="CDK Test" />
-          Admin
+          <AdminApp />
         </div>
       );
     }

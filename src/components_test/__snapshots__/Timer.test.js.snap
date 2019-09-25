@@ -2,7 +2,7 @@ exports[`UI Test for timer Timer should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Timer
-    seconds={60} />,
+    seconds={10} />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -25,9 +25,9 @@ ShallowWrapper {
                         "padding": 5,
                       }
         }>
-        01
-         : 
         00
+         : 
+        10
 </a>,
       "className": "row card ",
     },
@@ -38,9 +38,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "01",
-          " : ",
           "00",
+          " : ",
+          10,
         ],
         "className": "col s12 card-content horizontal center-align",
         "style": Object {
@@ -50,9 +50,9 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
-        "01",
-        " : ",
         "00",
+        " : ",
+        10,
       ],
       "type": "a",
     },
@@ -72,9 +72,9 @@ ShallowWrapper {
                               "padding": 5,
                             }
           }>
-          01
-           : 
           00
+           : 
+          10
 </a>,
         "className": "row card ",
       },
@@ -85,9 +85,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "01",
-            " : ",
             "00",
+            " : ",
+            10,
           ],
           "className": "col s12 card-content horizontal center-align",
           "style": Object {
@@ -97,9 +97,9 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          "01",
-          " : ",
           "00",
+          " : ",
+          10,
         ],
         "type": "a",
       },
