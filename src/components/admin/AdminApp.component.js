@@ -1,37 +1,25 @@
 import React, { Component } from 'react';
 import NavBar from '../NavBar.component'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import SideBar from './SideBar.component';
+
+
 class AdminApp extends Component {
 
   render() {
     return (
       <div>
-        
         <NavBar />
         <div className="row">
           <div className="col s2" style={{ height: "87vh", backgroundColor: "white" }}>
-            <ul>
-              <li className="sidebar-item">
-                <a href="#" className="center-align">Question Bank</a>
-              </li>
-              <li className="sidebar-item">
-                <a href="#">Create test</a>
-              </li>
-              <li className="sidebar-item">
-                <a href="#">Logout</a>
-              </li>
-            </ul>
+            <SideBar />
           </div>
-          <div class="col s10">
-            <div class="container">
-
-              container will be rendered here
-        </div>
+          <div className="col s10">
+            <div className="container">
+              <div className="card p6">Welcome User
+               </div>
+            </div>
           </div>
         </div>
-
-
-
       </div>
     )
   }

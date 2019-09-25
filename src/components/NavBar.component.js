@@ -9,8 +9,8 @@ class NavBar extends Component{
         <nav>
           <div className="nav-wrapper">
             <span className="brand-logo pad-2 left blue-text text-darken-2" style={{marginLeft:30}}>{this.props.title}</span>
-            <ul className="right">
-            <li><i class="material-icons prefix">account_circle</i> </li>
+            <ul className="right" style={{marginRight:30}}>
+            <li>Welcome User </li>
             </ul>
           </div>
         </nav>
