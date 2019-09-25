@@ -4,7 +4,7 @@ import AdminApp from './components/admin/AdminApp.component'
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 class App extends Component {
   state = {
-    userType: "candidate"
+    userType: "admin"
   }
   constructor(props) {
     super(props);

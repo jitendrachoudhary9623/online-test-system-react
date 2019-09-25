@@ -40,12 +40,8 @@ componentWillUnmount(){
       return (
         <div>
           <NavBar title="CDK Test" />
-<<<<<<< HEAD:src/components/client_components/Quiz.js
           <QuestionPaper questions={this.state} seconds={300} completeTestHandler={this.completeTestHandler} />
-=======
-          <QuestionPaper questions={this.state} seconds={90} completeTestHandler={this.completeTestHandler} />
->>>>>>> jitendra:src/components/client/Quiz.component.js
-        </div>
+          </div>
       );
     } else {
       return (
