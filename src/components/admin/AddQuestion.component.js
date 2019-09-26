@@ -7,7 +7,7 @@ class AddQuestion extends Component {
     render() {
         return (<div>
             <div>
-                <NavBar />
+                <NavBar isLoggedIn={true} />
                 <div className="row">
                     <div className="col s2" style={{ height: "89vh", backgroundColor: "white" }}>
                         <SideBar />

@@ -8,7 +8,7 @@ class AdminApp extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <NavBar isLoggedIn={true}/>
         <div className="row">
           <div className="col s2" style={{ height: "87vh", backgroundColor: "white" }}>
             <SideBar />

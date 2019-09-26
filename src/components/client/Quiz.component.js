@@ -39,14 +39,14 @@ componentWillUnmount(){
     if (this.state.score === "") {
       return (
         <div>
-          <NavBar title="CDK Test" />
+          <NavBar title="CDK Test" isLoggedIn={true}/>
           <QuestionPaper questions={this.state} seconds={300} completeTestHandler={this.completeTestHandler} />
           </div>
       );
     } else {
       return (
         <div>
-          <NavBar title="CDK Test" />
+          <NavBar title="CDK Test" isLoggedIn={true} />
           <ScoreCard score={this.state.score} style={{margin:3}}/>
         </div>
       );
