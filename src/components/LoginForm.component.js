@@ -38,7 +38,12 @@ class Loginform extends Component {
             console.log(password.length);
             //this.props.onSignIn(username, password);
            // <Redirect to="/test" />
+           if(username.endsWith("cdk.com")){
+           this.props.history.push("/admin");
+
+           }else{
            this.props.history.push("/test");
+           }
         }
 
     }

@@ -7,6 +7,7 @@ render(){
     <ul>
         <li className="sidebar-item">
           <a href="#" className="center-align">Question Bank</a>
+          <ul>
           <li className="sidebar-sub-item">
             <Link to="/ViewQuestions" className="center-align">View Question</Link>
 
@@ -14,6 +15,7 @@ render(){
           <li className="sidebar-sub-item">
             <Link to="/AddQuestion" className="center-align">Add Question</Link>
           </li>
+          </ul>
         </li>
         <li className="sidebar-item">
           <a href="#">Create test</a>

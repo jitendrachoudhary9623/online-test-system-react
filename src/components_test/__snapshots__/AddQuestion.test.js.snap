@@ -1,0 +1,1764 @@
+exports[`UI Test for Add Question AddQuestion should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddQuestion />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <NavBar
+                isLoggedIn={true}
+                title="CDK Test"
+                username="user" />
+        <div
+                className="row">
+                <div
+                        className="col s2"
+                        style={
+                                Object {
+                                        "backgroundColor": "white",
+                                        "height": "89vh",
+                                      }
+                        }>
+                        <SideBar />
+                </div>
+                <div
+                        className="col s10 scrollable">
+                        <div
+                                className="row col s10 card"
+                                style={
+                                        Object {
+                                                "margin": 30,
+                                              }
+                                }>
+                                <form
+                                        className="col s12">
+                                        <div
+                                                className="row">
+                                                <br />
+                                                <div
+                                                        className="col s12">
+                                                        <label
+                                                                htmlFor="textarea1">
+                                                                Enter Question
+                                                        </label>
+                                                        <textarea
+                                                                id="textarea1"
+                                                                onChange={[Function]}
+                                                                placeholder="Enter Question"
+                                                                rows="50"
+                                                                value="" />
+                                                </div>
+                                                <div
+                                                        style={
+                                                                Object {
+                                                                        "margin": 20,
+                                                                      }
+                                                        }>
+                                                        <div
+                                                                className="row">
+                                                                <OptionInput
+                                                                        className="col s12"
+                                                                        handleInputTextBox={[Function]}
+                                                                        handleOptionClick={[Function]}
+                                                                        optionNo="1" />
+                                                                <OptionInput
+                                                                        className="col s12"
+                                                                        handleInputTextBox={[Function]}
+                                                                        handleOptionClick={[Function]}
+                                                                        optionNo="2" />
+                                                        </div>
+                                                        <div
+                                                                className="row">
+                                                                <OptionInput
+                                                                        className="col s12"
+                                                                        handleInputTextBox={[Function]}
+                                                                        handleOptionClick={[Function]}
+                                                                        optionNo="3" />
+                                                                <OptionInput
+                                                                        className="col s12"
+                                                                        handleInputTextBox={[Function]}
+                                                                        handleOptionClick={[Function]}
+                                                                        optionNo="4" />
+                                                        </div>
+                                                </div>
+                                                <div
+                                                        className="center-align">
+                                                        <input
+                                                                className="btn"
+                                                                onClick={[Function]}
+                                                                type="button"
+                                                                value="Add Question" />
+                                                </div>
+                                        </div>
+                                </form>
+                        </div>
+                </div>
+        </div>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavBar
+            isLoggedIn={true}
+            title="CDK Test"
+            username="user" />,
+          <div
+            className="row">
+            <div
+                        className="col s2"
+                        style={
+                                    Object {
+                                                "backgroundColor": "white",
+                                                "height": "89vh",
+                                              }
+                        }>
+                        <SideBar />
+            </div>
+            <div
+                        className="col s10 scrollable">
+                        <div
+                                    className="row col s10 card"
+                                    style={
+                                                Object {
+                                                            "margin": 30,
+                                                          }
+                                    }>
+                                    <form
+                                                className="col s12">
+                                                <div
+                                                            className="row">
+                                                            <br />
+                                                            <div
+                                                                        className="col s12">
+                                                                        <label
+                                                                                    htmlFor="textarea1">
+                                                                                    Enter Question
+                                                                        </label>
+                                                                        <textarea
+                                                                                    id="textarea1"
+                                                                                    onChange={[Function]}
+                                                                                    placeholder="Enter Question"
+                                                                                    rows="50"
+                                                                                    value="" />
+                                                            </div>
+                                                            <div
+                                                                        style={
+                                                                                    Object {
+                                                                                                "margin": 20,
+                                                                                              }
+                                                                        }>
+                                                                        <div
+                                                                                    className="row">
+                                                                                    <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="1" />
+                                                                                    <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="2" />
+                                                                        </div>
+                                                                        <div
+                                                                                    className="row">
+                                                                                    <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="3" />
+                                                                                    <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="4" />
+                                                                        </div>
+                                                            </div>
+                                                            <div
+                                                                        className="center-align">
+                                                                        <input
+                                                                                    className="btn"
+                                                                                    onClick={[Function]}
+                                                                                    type="button"
+                                                                                    value="Add Question" />
+                                                            </div>
+                                                </div>
+                                    </form>
+                        </div>
+            </div>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "isLoggedIn": true,
+            "title": "CDK Test",
+            "username": "user",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col s2"
+                style={
+                                Object {
+                                                "backgroundColor": "white",
+                                                "height": "89vh",
+                                              }
+                }>
+                <SideBar />
+</div>,
+              <div
+                className="col s10 scrollable">
+                <div
+                                className="row col s10 card"
+                                style={
+                                                Object {
+                                                                "margin": 30,
+                                                              }
+                                }>
+                                <form
+                                                className="col s12">
+                                                <div
+                                                                className="row">
+                                                                <br />
+                                                                <div
+                                                                                className="col s12">
+                                                                                <label
+                                                                                                htmlFor="textarea1">
+                                                                                                Enter Question
+                                                                                </label>
+                                                                                <textarea
+                                                                                                id="textarea1"
+                                                                                                onChange={[Function]}
+                                                                                                placeholder="Enter Question"
+                                                                                                rows="50"
+                                                                                                value="" />
+                                                                </div>
+                                                                <div
+                                                                                style={
+                                                                                                Object {
+                                                                                                                "margin": 20,
+                                                                                                              }
+                                                                                }>
+                                                                                <div
+                                                                                                className="row">
+                                                                                                <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="1" />
+                                                                                                <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="2" />
+                                                                                </div>
+                                                                                <div
+                                                                                                className="row">
+                                                                                                <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="3" />
+                                                                                                <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="4" />
+                                                                                </div>
+                                                                </div>
+                                                                <div
+                                                                                className="center-align">
+                                                                                <input
+                                                                                                className="btn"
+                                                                                                onClick={[Function]}
+                                                                                                type="button"
+                                                                                                value="Add Question" />
+                                                                </div>
+                                                </div>
+                                </form>
+                </div>
+</div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <SideBar />,
+                "className": "col s2",
+                "style": Object {
+                  "backgroundColor": "white",
+                  "height": "89vh",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="row col s10 card"
+                  style={
+                                    Object {
+                                                      "margin": 30,
+                                                    }
+                  }>
+                  <form
+                                    className="col s12">
+                                    <div
+                                                      className="row">
+                                                      <br />
+                                                      <div
+                                                                        className="col s12">
+                                                                        <label
+                                                                                          htmlFor="textarea1">
+                                                                                          Enter Question
+                                                                        </label>
+                                                                        <textarea
+                                                                                          id="textarea1"
+                                                                                          onChange={[Function]}
+                                                                                          placeholder="Enter Question"
+                                                                                          rows="50"
+                                                                                          value="" />
+                                                      </div>
+                                                      <div
+                                                                        style={
+                                                                                          Object {
+                                                                                                            "margin": 20,
+                                                                                                          }
+                                                                        }>
+                                                                        <div
+                                                                                          className="row">
+                                                                                          <OptionInput
+                                                                                                            className="col s12"
+                                                                                                            handleInputTextBox={[Function]}
+                                                                                                            handleOptionClick={[Function]}
+                                                                                                            optionNo="1" />
+                                                                                          <OptionInput
+                                                                                                            className="col s12"
+                                                                                                            handleInputTextBox={[Function]}
+                                                                                                            handleOptionClick={[Function]}
+                                                                                                            optionNo="2" />
+                                                                        </div>
+                                                                        <div
+                                                                                          className="row">
+                                                                                          <OptionInput
+                                                                                                            className="col s12"
+                                                                                                            handleInputTextBox={[Function]}
+                                                                                                            handleOptionClick={[Function]}
+                                                                                                            optionNo="3" />
+                                                                                          <OptionInput
+                                                                                                            className="col s12"
+                                                                                                            handleInputTextBox={[Function]}
+                                                                                                            handleOptionClick={[Function]}
+                                                                                                            optionNo="4" />
+                                                                        </div>
+                                                      </div>
+                                                      <div
+                                                                        className="center-align">
+                                                                        <input
+                                                                                          className="btn"
+                                                                                          onClick={[Function]}
+                                                                                          type="button"
+                                                                                          value="Add Question" />
+                                                      </div>
+                                    </div>
+                  </form>
+</div>,
+                "className": "col s10 scrollable",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <form
+                    className="col s12">
+                    <div
+                                        className="row">
+                                        <br />
+                                        <div
+                                                            className="col s12">
+                                                            <label
+                                                                                htmlFor="textarea1">
+                                                                                Enter Question
+                                                            </label>
+                                                            <textarea
+                                                                                id="textarea1"
+                                                                                onChange={[Function]}
+                                                                                placeholder="Enter Question"
+                                                                                rows="50"
+                                                                                value="" />
+                                        </div>
+                                        <div
+                                                            style={
+                                                                                Object {
+                                                                                                    "margin": 20,
+                                                                                                  }
+                                                            }>
+                                                            <div
+                                                                                className="row">
+                                                                                <OptionInput
+                                                                                                    className="col s12"
+                                                                                                    handleInputTextBox={[Function]}
+                                                                                                    handleOptionClick={[Function]}
+                                                                                                    optionNo="1" />
+                                                                                <OptionInput
+                                                                                                    className="col s12"
+                                                                                                    handleInputTextBox={[Function]}
+                                                                                                    handleOptionClick={[Function]}
+                                                                                                    optionNo="2" />
+                                                            </div>
+                                                            <div
+                                                                                className="row">
+                                                                                <OptionInput
+                                                                                                    className="col s12"
+                                                                                                    handleInputTextBox={[Function]}
+                                                                                                    handleOptionClick={[Function]}
+                                                                                                    optionNo="3" />
+                                                                                <OptionInput
+                                                                                                    className="col s12"
+                                                                                                    handleInputTextBox={[Function]}
+                                                                                                    handleOptionClick={[Function]}
+                                                                                                    optionNo="4" />
+                                                            </div>
+                                        </div>
+                                        <div
+                                                            className="center-align">
+                                                            <input
+                                                                                className="btn"
+                                                                                onClick={[Function]}
+                                                                                type="button"
+                                                                                value="Add Question" />
+                                        </div>
+                    </div>
+</form>,
+                  "className": "row col s10 card",
+                  "style": Object {
+                    "margin": 30,
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="row">
+                      <br />
+                      <div
+                                            className="col s12">
+                                            <label
+                                                                  htmlFor="textarea1">
+                                                                  Enter Question
+                                            </label>
+                                            <textarea
+                                                                  id="textarea1"
+                                                                  onChange={[Function]}
+                                                                  placeholder="Enter Question"
+                                                                  rows="50"
+                                                                  value="" />
+                      </div>
+                      <div
+                                            style={
+                                                                  Object {
+                                                                                        "margin": 20,
+                                                                                      }
+                                            }>
+                                            <div
+                                                                  className="row">
+                                                                  <OptionInput
+                                                                                        className="col s12"
+                                                                                        handleInputTextBox={[Function]}
+                                                                                        handleOptionClick={[Function]}
+                                                                                        optionNo="1" />
+                                                                  <OptionInput
+                                                                                        className="col s12"
+                                                                                        handleInputTextBox={[Function]}
+                                                                                        handleOptionClick={[Function]}
+                                                                                        optionNo="2" />
+                                            </div>
+                                            <div
+                                                                  className="row">
+                                                                  <OptionInput
+                                                                                        className="col s12"
+                                                                                        handleInputTextBox={[Function]}
+                                                                                        handleOptionClick={[Function]}
+                                                                                        optionNo="3" />
+                                                                  <OptionInput
+                                                                                        className="col s12"
+                                                                                        handleInputTextBox={[Function]}
+                                                                                        handleOptionClick={[Function]}
+                                                                                        optionNo="4" />
+                                            </div>
+                      </div>
+                      <div
+                                            className="center-align">
+                                            <input
+                                                                  className="btn"
+                                                                  onClick={[Function]}
+                                                                  type="button"
+                                                                  value="Add Question" />
+                      </div>
+</div>,
+                    "className": "col s12",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <br />,
+                        <div
+                          className="col s12">
+                          <label
+                                                    htmlFor="textarea1">
+                                                    Enter Question
+                          </label>
+                          <textarea
+                                                    id="textarea1"
+                                                    onChange={[Function]}
+                                                    placeholder="Enter Question"
+                                                    rows="50"
+                                                    value="" />
+</div>,
+                        <div
+                          style={
+                                                    Object {
+                                                                              "margin": 20,
+                                                                            }
+                          }>
+                          <div
+                                                    className="row">
+                                                    <OptionInput
+                                                                              className="col s12"
+                                                                              handleInputTextBox={[Function]}
+                                                                              handleOptionClick={[Function]}
+                                                                              optionNo="1" />
+                                                    <OptionInput
+                                                                              className="col s12"
+                                                                              handleInputTextBox={[Function]}
+                                                                              handleOptionClick={[Function]}
+                                                                              optionNo="2" />
+                          </div>
+                          <div
+                                                    className="row">
+                                                    <OptionInput
+                                                                              className="col s12"
+                                                                              handleInputTextBox={[Function]}
+                                                                              handleOptionClick={[Function]}
+                                                                              optionNo="3" />
+                                                    <OptionInput
+                                                                              className="col s12"
+                                                                              handleInputTextBox={[Function]}
+                                                                              handleOptionClick={[Function]}
+                                                                              optionNo="4" />
+                          </div>
+</div>,
+                        <div
+                          className="center-align">
+                          <input
+                                                    className="btn"
+                                                    onClick={[Function]}
+                                                    type="button"
+                                                    value="Add Question" />
+</div>,
+                      ],
+                      "className": "row",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "br",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <label
+                              htmlFor="textarea1">
+                              Enter Question
+</label>,
+                            <textarea
+                              id="textarea1"
+                              onChange={[Function]}
+                              placeholder="Enter Question"
+                              rows="50"
+                              value="" />,
+                          ],
+                          "className": "col s12",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Enter Question",
+                              "htmlFor": "textarea1",
+                            },
+                            "ref": null,
+                            "rendered": "Enter Question",
+                            "type": "label",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "id": "textarea1",
+                              "onChange": [Function],
+                              "placeholder": "Enter Question",
+                              "rows": "50",
+                              "value": "",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "textarea",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="row">
+                              <OptionInput
+                                                            className="col s12"
+                                                            handleInputTextBox={[Function]}
+                                                            handleOptionClick={[Function]}
+                                                            optionNo="1" />
+                              <OptionInput
+                                                            className="col s12"
+                                                            handleInputTextBox={[Function]}
+                                                            handleOptionClick={[Function]}
+                                                            optionNo="2" />
+</div>,
+                            <div
+                              className="row">
+                              <OptionInput
+                                                            className="col s12"
+                                                            handleInputTextBox={[Function]}
+                                                            handleOptionClick={[Function]}
+                                                            optionNo="3" />
+                              <OptionInput
+                                                            className="col s12"
+                                                            handleInputTextBox={[Function]}
+                                                            handleOptionClick={[Function]}
+                                                            optionNo="4" />
+</div>,
+                          ],
+                          "style": Object {
+                            "margin": 20,
+                          },
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <OptionInput
+                                  className="col s12"
+                                  handleInputTextBox={[Function]}
+                                  handleOptionClick={[Function]}
+                                  optionNo="1" />,
+                                <OptionInput
+                                  className="col s12"
+                                  handleInputTextBox={[Function]}
+                                  handleOptionClick={[Function]}
+                                  optionNo="2" />,
+                              ],
+                              "className": "row",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "class",
+                                "props": Object {
+                                  "className": "col s12",
+                                  "handleInputTextBox": [Function],
+                                  "handleOptionClick": [Function],
+                                  "optionNo": "1",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "class",
+                                "props": Object {
+                                  "className": "col s12",
+                                  "handleInputTextBox": [Function],
+                                  "handleOptionClick": [Function],
+                                  "optionNo": "2",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <OptionInput
+                                  className="col s12"
+                                  handleInputTextBox={[Function]}
+                                  handleOptionClick={[Function]}
+                                  optionNo="3" />,
+                                <OptionInput
+                                  className="col s12"
+                                  handleInputTextBox={[Function]}
+                                  handleOptionClick={[Function]}
+                                  optionNo="4" />,
+                              ],
+                              "className": "row",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "class",
+                                "props": Object {
+                                  "className": "col s12",
+                                  "handleInputTextBox": [Function],
+                                  "handleOptionClick": [Function],
+                                  "optionNo": "3",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "class",
+                                "props": Object {
+                                  "className": "col s12",
+                                  "handleInputTextBox": [Function],
+                                  "handleOptionClick": [Function],
+                                  "optionNo": "4",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                            ],
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <input
+                            className="btn"
+                            onClick={[Function]}
+                            type="button"
+                            value="Add Question" />,
+                          "className": "center-align",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "btn",
+                            "onClick": [Function],
+                            "type": "button",
+                            "value": "Add Question",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "form",
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <NavBar
+                    isLoggedIn={true}
+                    title="CDK Test"
+                    username="user" />
+          <div
+                    className="row">
+                    <div
+                              className="col s2"
+                              style={
+                                        Object {
+                                                  "backgroundColor": "white",
+                                                  "height": "89vh",
+                                                }
+                              }>
+                              <SideBar />
+                    </div>
+                    <div
+                              className="col s10 scrollable">
+                              <div
+                                        className="row col s10 card"
+                                        style={
+                                                  Object {
+                                                            "margin": 30,
+                                                          }
+                                        }>
+                                        <form
+                                                  className="col s12">
+                                                  <div
+                                                            className="row">
+                                                            <br />
+                                                            <div
+                                                                      className="col s12">
+                                                                      <label
+                                                                                htmlFor="textarea1">
+                                                                                Enter Question
+                                                                      </label>
+                                                                      <textarea
+                                                                                id="textarea1"
+                                                                                onChange={[Function]}
+                                                                                placeholder="Enter Question"
+                                                                                rows="50"
+                                                                                value="" />
+                                                            </div>
+                                                            <div
+                                                                      style={
+                                                                                Object {
+                                                                                          "margin": 20,
+                                                                                        }
+                                                                      }>
+                                                                      <div
+                                                                                className="row">
+                                                                                <OptionInput
+                                                                                          className="col s12"
+                                                                                          handleInputTextBox={[Function]}
+                                                                                          handleOptionClick={[Function]}
+                                                                                          optionNo="1" />
+                                                                                <OptionInput
+                                                                                          className="col s12"
+                                                                                          handleInputTextBox={[Function]}
+                                                                                          handleOptionClick={[Function]}
+                                                                                          optionNo="2" />
+                                                                      </div>
+                                                                      <div
+                                                                                className="row">
+                                                                                <OptionInput
+                                                                                          className="col s12"
+                                                                                          handleInputTextBox={[Function]}
+                                                                                          handleOptionClick={[Function]}
+                                                                                          optionNo="3" />
+                                                                                <OptionInput
+                                                                                          className="col s12"
+                                                                                          handleInputTextBox={[Function]}
+                                                                                          handleOptionClick={[Function]}
+                                                                                          optionNo="4" />
+                                                                      </div>
+                                                            </div>
+                                                            <div
+                                                                      className="center-align">
+                                                                      <input
+                                                                                className="btn"
+                                                                                onClick={[Function]}
+                                                                                type="button"
+                                                                                value="Add Question" />
+                                                            </div>
+                                                  </div>
+                                        </form>
+                              </div>
+                    </div>
+          </div>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavBar
+              isLoggedIn={true}
+              title="CDK Test"
+              username="user" />,
+            <div
+              className="row">
+              <div
+                            className="col s2"
+                            style={
+                                          Object {
+                                                        "backgroundColor": "white",
+                                                        "height": "89vh",
+                                                      }
+                            }>
+                            <SideBar />
+              </div>
+              <div
+                            className="col s10 scrollable">
+                            <div
+                                          className="row col s10 card"
+                                          style={
+                                                        Object {
+                                                                      "margin": 30,
+                                                                    }
+                                          }>
+                                          <form
+                                                        className="col s12">
+                                                        <div
+                                                                      className="row">
+                                                                      <br />
+                                                                      <div
+                                                                                    className="col s12">
+                                                                                    <label
+                                                                                                  htmlFor="textarea1">
+                                                                                                  Enter Question
+                                                                                    </label>
+                                                                                    <textarea
+                                                                                                  id="textarea1"
+                                                                                                  onChange={[Function]}
+                                                                                                  placeholder="Enter Question"
+                                                                                                  rows="50"
+                                                                                                  value="" />
+                                                                      </div>
+                                                                      <div
+                                                                                    style={
+                                                                                                  Object {
+                                                                                                                "margin": 20,
+                                                                                                              }
+                                                                                    }>
+                                                                                    <div
+                                                                                                  className="row">
+                                                                                                  <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="1" />
+                                                                                                  <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="2" />
+                                                                                    </div>
+                                                                                    <div
+                                                                                                  className="row">
+                                                                                                  <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="3" />
+                                                                                                  <OptionInput
+                                                                                                                className="col s12"
+                                                                                                                handleInputTextBox={[Function]}
+                                                                                                                handleOptionClick={[Function]}
+                                                                                                                optionNo="4" />
+                                                                                    </div>
+                                                                      </div>
+                                                                      <div
+                                                                                    className="center-align">
+                                                                                    <input
+                                                                                                  className="btn"
+                                                                                                  onClick={[Function]}
+                                                                                                  type="button"
+                                                                                                  value="Add Question" />
+                                                                      </div>
+                                                        </div>
+                                          </form>
+                            </div>
+              </div>
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "isLoggedIn": true,
+              "title": "CDK Test",
+              "username": "user",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col s2"
+                  style={
+                                    Object {
+                                                      "backgroundColor": "white",
+                                                      "height": "89vh",
+                                                    }
+                  }>
+                  <SideBar />
+</div>,
+                <div
+                  className="col s10 scrollable">
+                  <div
+                                    className="row col s10 card"
+                                    style={
+                                                      Object {
+                                                                        "margin": 30,
+                                                                      }
+                                    }>
+                                    <form
+                                                      className="col s12">
+                                                      <div
+                                                                        className="row">
+                                                                        <br />
+                                                                        <div
+                                                                                          className="col s12">
+                                                                                          <label
+                                                                                                            htmlFor="textarea1">
+                                                                                                            Enter Question
+                                                                                          </label>
+                                                                                          <textarea
+                                                                                                            id="textarea1"
+                                                                                                            onChange={[Function]}
+                                                                                                            placeholder="Enter Question"
+                                                                                                            rows="50"
+                                                                                                            value="" />
+                                                                        </div>
+                                                                        <div
+                                                                                          style={
+                                                                                                            Object {
+                                                                                                                              "margin": 20,
+                                                                                                                            }
+                                                                                          }>
+                                                                                          <div
+                                                                                                            className="row">
+                                                                                                            <OptionInput
+                                                                                                                              className="col s12"
+                                                                                                                              handleInputTextBox={[Function]}
+                                                                                                                              handleOptionClick={[Function]}
+                                                                                                                              optionNo="1" />
+                                                                                                            <OptionInput
+                                                                                                                              className="col s12"
+                                                                                                                              handleInputTextBox={[Function]}
+                                                                                                                              handleOptionClick={[Function]}
+                                                                                                                              optionNo="2" />
+                                                                                          </div>
+                                                                                          <div
+                                                                                                            className="row">
+                                                                                                            <OptionInput
+                                                                                                                              className="col s12"
+                                                                                                                              handleInputTextBox={[Function]}
+                                                                                                                              handleOptionClick={[Function]}
+                                                                                                                              optionNo="3" />
+                                                                                                            <OptionInput
+                                                                                                                              className="col s12"
+                                                                                                                              handleInputTextBox={[Function]}
+                                                                                                                              handleOptionClick={[Function]}
+                                                                                                                              optionNo="4" />
+                                                                                          </div>
+                                                                        </div>
+                                                                        <div
+                                                                                          className="center-align">
+                                                                                          <input
+                                                                                                            className="btn"
+                                                                                                            onClick={[Function]}
+                                                                                                            type="button"
+                                                                                                            value="Add Question" />
+                                                                        </div>
+                                                      </div>
+                                    </form>
+                  </div>
+</div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SideBar />,
+                  "className": "col s2",
+                  "style": Object {
+                    "backgroundColor": "white",
+                    "height": "89vh",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="row col s10 card"
+                    style={
+                                        Object {
+                                                            "margin": 30,
+                                                          }
+                    }>
+                    <form
+                                        className="col s12">
+                                        <div
+                                                            className="row">
+                                                            <br />
+                                                            <div
+                                                                                className="col s12">
+                                                                                <label
+                                                                                                    htmlFor="textarea1">
+                                                                                                    Enter Question
+                                                                                </label>
+                                                                                <textarea
+                                                                                                    id="textarea1"
+                                                                                                    onChange={[Function]}
+                                                                                                    placeholder="Enter Question"
+                                                                                                    rows="50"
+                                                                                                    value="" />
+                                                            </div>
+                                                            <div
+                                                                                style={
+                                                                                                    Object {
+                                                                                                                        "margin": 20,
+                                                                                                                      }
+                                                                                }>
+                                                                                <div
+                                                                                                    className="row">
+                                                                                                    <OptionInput
+                                                                                                                        className="col s12"
+                                                                                                                        handleInputTextBox={[Function]}
+                                                                                                                        handleOptionClick={[Function]}
+                                                                                                                        optionNo="1" />
+                                                                                                    <OptionInput
+                                                                                                                        className="col s12"
+                                                                                                                        handleInputTextBox={[Function]}
+                                                                                                                        handleOptionClick={[Function]}
+                                                                                                                        optionNo="2" />
+                                                                                </div>
+                                                                                <div
+                                                                                                    className="row">
+                                                                                                    <OptionInput
+                                                                                                                        className="col s12"
+                                                                                                                        handleInputTextBox={[Function]}
+                                                                                                                        handleOptionClick={[Function]}
+                                                                                                                        optionNo="3" />
+                                                                                                    <OptionInput
+                                                                                                                        className="col s12"
+                                                                                                                        handleInputTextBox={[Function]}
+                                                                                                                        handleOptionClick={[Function]}
+                                                                                                                        optionNo="4" />
+                                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                                className="center-align">
+                                                                                <input
+                                                                                                    className="btn"
+                                                                                                    onClick={[Function]}
+                                                                                                    type="button"
+                                                                                                    value="Add Question" />
+                                                            </div>
+                                        </div>
+                    </form>
+</div>,
+                  "className": "col s10 scrollable",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <form
+                      className="col s12">
+                      <div
+                                            className="row">
+                                            <br />
+                                            <div
+                                                                  className="col s12">
+                                                                  <label
+                                                                                        htmlFor="textarea1">
+                                                                                        Enter Question
+                                                                  </label>
+                                                                  <textarea
+                                                                                        id="textarea1"
+                                                                                        onChange={[Function]}
+                                                                                        placeholder="Enter Question"
+                                                                                        rows="50"
+                                                                                        value="" />
+                                            </div>
+                                            <div
+                                                                  style={
+                                                                                        Object {
+                                                                                                              "margin": 20,
+                                                                                                            }
+                                                                  }>
+                                                                  <div
+                                                                                        className="row">
+                                                                                        <OptionInput
+                                                                                                              className="col s12"
+                                                                                                              handleInputTextBox={[Function]}
+                                                                                                              handleOptionClick={[Function]}
+                                                                                                              optionNo="1" />
+                                                                                        <OptionInput
+                                                                                                              className="col s12"
+                                                                                                              handleInputTextBox={[Function]}
+                                                                                                              handleOptionClick={[Function]}
+                                                                                                              optionNo="2" />
+                                                                  </div>
+                                                                  <div
+                                                                                        className="row">
+                                                                                        <OptionInput
+                                                                                                              className="col s12"
+                                                                                                              handleInputTextBox={[Function]}
+                                                                                                              handleOptionClick={[Function]}
+                                                                                                              optionNo="3" />
+                                                                                        <OptionInput
+                                                                                                              className="col s12"
+                                                                                                              handleInputTextBox={[Function]}
+                                                                                                              handleOptionClick={[Function]}
+                                                                                                              optionNo="4" />
+                                                                  </div>
+                                            </div>
+                                            <div
+                                                                  className="center-align">
+                                                                  <input
+                                                                                        className="btn"
+                                                                                        onClick={[Function]}
+                                                                                        type="button"
+                                                                                        value="Add Question" />
+                                            </div>
+                      </div>
+</form>,
+                    "className": "row col s10 card",
+                    "style": Object {
+                      "margin": 30,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row">
+                        <br />
+                        <div
+                                                className="col s12">
+                                                <label
+                                                                        htmlFor="textarea1">
+                                                                        Enter Question
+                                                </label>
+                                                <textarea
+                                                                        id="textarea1"
+                                                                        onChange={[Function]}
+                                                                        placeholder="Enter Question"
+                                                                        rows="50"
+                                                                        value="" />
+                        </div>
+                        <div
+                                                style={
+                                                                        Object {
+                                                                                                "margin": 20,
+                                                                                              }
+                                                }>
+                                                <div
+                                                                        className="row">
+                                                                        <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="1" />
+                                                                        <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="2" />
+                                                </div>
+                                                <div
+                                                                        className="row">
+                                                                        <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="3" />
+                                                                        <OptionInput
+                                                                                                className="col s12"
+                                                                                                handleInputTextBox={[Function]}
+                                                                                                handleOptionClick={[Function]}
+                                                                                                optionNo="4" />
+                                                </div>
+                        </div>
+                        <div
+                                                className="center-align">
+                                                <input
+                                                                        className="btn"
+                                                                        onClick={[Function]}
+                                                                        type="button"
+                                                                        value="Add Question" />
+                        </div>
+</div>,
+                      "className": "col s12",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <br />,
+                          <div
+                            className="col s12">
+                            <label
+                                                        htmlFor="textarea1">
+                                                        Enter Question
+                            </label>
+                            <textarea
+                                                        id="textarea1"
+                                                        onChange={[Function]}
+                                                        placeholder="Enter Question"
+                                                        rows="50"
+                                                        value="" />
+</div>,
+                          <div
+                            style={
+                                                        Object {
+                                                                                    "margin": 20,
+                                                                                  }
+                            }>
+                            <div
+                                                        className="row">
+                                                        <OptionInput
+                                                                                    className="col s12"
+                                                                                    handleInputTextBox={[Function]}
+                                                                                    handleOptionClick={[Function]}
+                                                                                    optionNo="1" />
+                                                        <OptionInput
+                                                                                    className="col s12"
+                                                                                    handleInputTextBox={[Function]}
+                                                                                    handleOptionClick={[Function]}
+                                                                                    optionNo="2" />
+                            </div>
+                            <div
+                                                        className="row">
+                                                        <OptionInput
+                                                                                    className="col s12"
+                                                                                    handleInputTextBox={[Function]}
+                                                                                    handleOptionClick={[Function]}
+                                                                                    optionNo="3" />
+                                                        <OptionInput
+                                                                                    className="col s12"
+                                                                                    handleInputTextBox={[Function]}
+                                                                                    handleOptionClick={[Function]}
+                                                                                    optionNo="4" />
+                            </div>
+</div>,
+                          <div
+                            className="center-align">
+                            <input
+                                                        className="btn"
+                                                        onClick={[Function]}
+                                                        type="button"
+                                                        value="Add Question" />
+</div>,
+                        ],
+                        "className": "row",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <label
+                                htmlFor="textarea1">
+                                Enter Question
+</label>,
+                              <textarea
+                                id="textarea1"
+                                onChange={[Function]}
+                                placeholder="Enter Question"
+                                rows="50"
+                                value="" />,
+                            ],
+                            "className": "col s12",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Enter Question",
+                                "htmlFor": "textarea1",
+                              },
+                              "ref": null,
+                              "rendered": "Enter Question",
+                              "type": "label",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "id": "textarea1",
+                                "onChange": [Function],
+                                "placeholder": "Enter Question",
+                                "rows": "50",
+                                "value": "",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "textarea",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <div
+                                className="row">
+                                <OptionInput
+                                                                className="col s12"
+                                                                handleInputTextBox={[Function]}
+                                                                handleOptionClick={[Function]}
+                                                                optionNo="1" />
+                                <OptionInput
+                                                                className="col s12"
+                                                                handleInputTextBox={[Function]}
+                                                                handleOptionClick={[Function]}
+                                                                optionNo="2" />
+</div>,
+                              <div
+                                className="row">
+                                <OptionInput
+                                                                className="col s12"
+                                                                handleInputTextBox={[Function]}
+                                                                handleOptionClick={[Function]}
+                                                                optionNo="3" />
+                                <OptionInput
+                                                                className="col s12"
+                                                                handleInputTextBox={[Function]}
+                                                                handleOptionClick={[Function]}
+                                                                optionNo="4" />
+</div>,
+                            ],
+                            "style": Object {
+                              "margin": 20,
+                            },
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <OptionInput
+                                    className="col s12"
+                                    handleInputTextBox={[Function]}
+                                    handleOptionClick={[Function]}
+                                    optionNo="1" />,
+                                  <OptionInput
+                                    className="col s12"
+                                    handleInputTextBox={[Function]}
+                                    handleOptionClick={[Function]}
+                                    optionNo="2" />,
+                                ],
+                                "className": "row",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "class",
+                                  "props": Object {
+                                    "className": "col s12",
+                                    "handleInputTextBox": [Function],
+                                    "handleOptionClick": [Function],
+                                    "optionNo": "1",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": [Function],
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "class",
+                                  "props": Object {
+                                    "className": "col s12",
+                                    "handleInputTextBox": [Function],
+                                    "handleOptionClick": [Function],
+                                    "optionNo": "2",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": [Function],
+                                },
+                              ],
+                              "type": "div",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <OptionInput
+                                    className="col s12"
+                                    handleInputTextBox={[Function]}
+                                    handleOptionClick={[Function]}
+                                    optionNo="3" />,
+                                  <OptionInput
+                                    className="col s12"
+                                    handleInputTextBox={[Function]}
+                                    handleOptionClick={[Function]}
+                                    optionNo="4" />,
+                                ],
+                                "className": "row",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "class",
+                                  "props": Object {
+                                    "className": "col s12",
+                                    "handleInputTextBox": [Function],
+                                    "handleOptionClick": [Function],
+                                    "optionNo": "3",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": [Function],
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "class",
+                                  "props": Object {
+                                    "className": "col s12",
+                                    "handleInputTextBox": [Function],
+                                    "handleOptionClick": [Function],
+                                    "optionNo": "4",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": [Function],
+                                },
+                              ],
+                              "type": "div",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <input
+                              className="btn"
+                              onClick={[Function]}
+                              type="button"
+                              value="Add Question" />,
+                            "className": "center-align",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "btn",
+                              "onClick": [Function],
+                              "type": "button",
+                              "value": "Add Question",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "input",
+                          },
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "form",
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

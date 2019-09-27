@@ -25,6 +25,7 @@ class QuestionPaper extends Component {
 
     handleAnswerClick = (id, answer) => {
         let questionState = this.state;
+        console.log(questionState.questions[id - 1]);
         questionState.questions[id - 1].userAnswer = "" + answer;
         for (var counter = 0; counter < questionState.questions[id - 1].Answers.length; counter++) {
             if ('' + (counter + 1) === questionState.questions[id - 1].userAnswer) {
