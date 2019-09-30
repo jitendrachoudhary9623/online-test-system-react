@@ -5,7 +5,7 @@ import ScoreCard from './ScoreCard.component'
 import dataSource from '../../datasource/mockData'
 import axios from "axios";
 import baseURL from "../../utils/API"
-
+import ErrorComponent from "../Error.component"
 
 class Quiz extends Component {
   state = {
@@ -16,7 +16,7 @@ class Quiz extends Component {
   }
   constructor(props) {
     super(props);
-    let getAll = baseURL + "getAll";
+    let getAll = baseURL + "question";
 
     axios.get(getAll, this.state).then(
       (res) => {
@@ -31,10 +31,10 @@ class Quiz extends Component {
             dataModel.userAnswer = "";
             dataModel.type = "objective";
             let Answers = [];
-            Answers.push({ "option": res.data[counter].option1, marked: false });
-            Answers.push({ "option": res.data[counter].option2, marked: false });
-            Answers.push({ "option": res.data[counter].option3, marked: false });
-            Answers.push({ "option": res.data[counter].option4, marked: false });
+            Answers.push({ "option": res.data[counter].op1, marked: false });
+            Answers.push({ "option": res.data[counter].op2, marked: false });
+            Answers.push({ "option": res.data[counter].op3, marked: false });
+            Answers.push({ "option": res.data[counter].op4, marked: false });
             dataModel.Answers = Answers;
             datasource.push(dataModel);
           }
@@ -71,7 +71,7 @@ class Quiz extends Component {
           </div>
         );
       } else {
-        return (<div>Data is been fetched</div>);
+        return (<ErrorComponent errorMessage="Unable to fetch data"/>);
       }
     } else {
       return (

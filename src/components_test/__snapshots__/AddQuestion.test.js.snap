@@ -17,10 +17,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div>
-        <NavBar
-                isLoggedIn={true}
-                title="CDK Test"
-                username="user" />
+        <Unknown
+                isLoggedIn={true} />
         <div
                 className="row">
                 <div
@@ -115,10 +113,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <NavBar
-            isLoggedIn={true}
-            title="CDK Test"
-            username="user" />,
+          <Unknown
+            isLoggedIn={true} />,
           <div
             className="row">
             <div
@@ -211,15 +207,20 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "isLoggedIn": true,
-            "title": "CDK Test",
-            "username": "user",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(NavBar)",
+            "type": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         Object {
           "instance": null,
@@ -878,10 +879,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div>
-          <NavBar
-                    isLoggedIn={true}
-                    title="CDK Test"
-                    username="user" />
+          <Unknown
+                    isLoggedIn={true} />
           <div
                     className="row">
                     <div
@@ -976,10 +975,8 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <NavBar
-              isLoggedIn={true}
-              title="CDK Test"
-              username="user" />,
+            <Unknown
+              isLoggedIn={true} />,
             <div
               className="row">
               <div
@@ -1072,15 +1069,20 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "isLoggedIn": true,
-              "title": "CDK Test",
-              "username": "user",
             },
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(NavBar)",
+              "type": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           Object {
             "instance": null,

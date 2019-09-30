@@ -8,11 +8,13 @@ class AddQuestion extends Component {
 
     state = {
         "question": "",
-        "option1": "",
-        "option2": "",
-        "option3": "",
-        "option4": "",
-        "ans_option": 1
+        "op1": "",
+        "op2": "",
+        "op3": "",
+        "op4": "",
+        "ans_option": 1,
+        "is_selected": 0
+
     }
 
 
@@ -39,16 +41,16 @@ class AddQuestion extends Component {
         let tempState = this.state;
         switch (parseInt(optionNo)) {
             case 1:
-                tempState.option1 = text;
+                tempState.op1 = text;
                 break;
             case 2:
-                tempState.option2 = text;
+                tempState.op2 = text;
                 break;
             case 3:
-                tempState.option3 = text;
+                tempState.op3 = text;
                 break;
             case 4:
-                tempState.option4 = text;
+                tempState.op4 = text;
                 break;
         }
 
@@ -57,8 +59,7 @@ class AddQuestion extends Component {
     }
 
     onSubmitHandler = () => {
-        let add_url = baseURL + "Add";
-
+        let add_url = baseURL + "question/insert";
         axios.post(add_url, this.state).then(
             (res) => {
                 if (res.status == 200) {
