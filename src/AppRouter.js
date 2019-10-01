@@ -9,7 +9,9 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import AddQuestion from './components/admin/AddQuestion.component';
 import LoginForm from './components/LoginForm.component'
 import { Redirect } from "react-router"
-
+import DeleteQuestion from "./components/admin/DeleteQuestion.component"
+import CreateQuestionPaper from "./components/admin/CreateTest/CreateQuestionPaper.component"
+import UpdateQuestion from "./components/admin/UpdateQuestion.component"
 class AppRouter extends Component {
 state={
     authentication:false,
@@ -29,9 +31,10 @@ constructor(props){
                     />
                     <Route path="/test" component={Quiz} />
                     <Route path="/Admin" component={AdminApp} />
-                    <Route path="/ViewQuestions" component={ViewQuestions} />
+                    <Route path="/ViewQuestions" component={DeleteQuestion} />
                     <Route path="/AddQuestion" component={AddQuestion} />
-
+                    <Route path="/CreateQuestion" component={CreateQuestionPaper} />
+                    <Route path="/updateQuestion" component={UpdateQuestion}/>
                 </div>
             </Router>
         )

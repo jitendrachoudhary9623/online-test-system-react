@@ -1,7 +1,7 @@
-export const UPDATE_LOGIN='users_updateLogin';
+import {UPDATE_LOGIN} from "../action.types"
 export function updateLogin(newUser){
     return {
-        type:'users_updateLogin',
+        type:UPDATE_LOGIN,
         payload:newUser
     }
 }

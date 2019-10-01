@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 
 class OptionInput extends Component {
-    state = {
-        optionText: ""
-    }
+   
 
     constructor(props) {
         super(props);
+        this.state = {
+            optionText: this.props.textInput,
+            radioChecked:this.props.radioChecked
+        }
     }
 
     handleOptionChange = () => {
+        let tempState=this.state;
+        tempState.radioChecked=!this.state.radioChecked;
+        this.setState(tempState);
         this.props.handleOptionClick(this.props.optionNo);
     }
     handleTextChange = (e) => {
@@ -28,7 +33,7 @@ class OptionInput extends Component {
                 <div className="col s1">
                     <label>is Answer</label><br />
                     <label>
-                        <input type="radio" className="with-gap" name="radio" onChange={this.handleOptionChange} />
+                        <input type="radio" className="with-gap" name="radio" onChange={this.handleOptionChange} checked={this.state.radioChecked}/>
                         <span></span>
                     </label></div>
             </div>
@@ -36,4 +41,8 @@ class OptionInput extends Component {
     }
 }
 
+OptionInput.defaultProps={
+    textInput:"",
+    radioChecked:false
+}
 export default OptionInput;

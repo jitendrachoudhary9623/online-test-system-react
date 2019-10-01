@@ -18,7 +18,7 @@ render(){
           </ul>
         </li>
         <li className="sidebar-item">
-          <a href="#">Create test</a>
+          <Link to="/CreateQuestion" className="center-align">Create Test</Link>
         </li>
         <li className="sidebar-item">
           <a href="#">Logout</a>

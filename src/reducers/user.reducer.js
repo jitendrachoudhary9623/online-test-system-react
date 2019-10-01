@@ -1,8 +1,8 @@
-import UPDATE_LOGIN from "../actions/user.action"
-export default function userReducer(state={username:"",loggedIn:false},{type,payload}){
+import { UPDATE_LOGIN } from "../action.types";
+export default function userReducer(state = { username: "", loggedIn: false }, { type, payload }) {
 
-    if(type=='users_updateLogin'){
+  if (type == UPDATE_LOGIN) {
     return payload;
-    }
-    return state;
   }
+  return state;
+}

@@ -59,7 +59,7 @@ class AddQuestion extends Component {
     }
 
     onSubmitHandler = () => {
-        let add_url = baseURL + "question/insert";
+        let add_url = baseURL+"/question/insert"
         axios.post(add_url, this.state).then(
             (res) => {
                 if (res.status == 200) {
