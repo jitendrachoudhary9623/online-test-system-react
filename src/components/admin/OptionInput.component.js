@@ -15,6 +15,7 @@ class OptionInput extends Component {
         let tempState=this.state;
         tempState.radioChecked=!this.state.radioChecked;
         this.setState(tempState);
+        console.log("changer");
         this.props.handleOptionClick(this.props.optionNo);
     }
     handleTextChange = (e) => {

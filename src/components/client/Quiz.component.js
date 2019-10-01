@@ -16,7 +16,7 @@ class Quiz extends Component {
   }
   constructor(props) {
     super(props);
-    let getAll = baseURL + "question";
+    let getAll = baseURL + "/question";
 
     axios.get(getAll, this.state).then(
       (res) => {
